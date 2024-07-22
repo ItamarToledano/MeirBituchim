@@ -1,0 +1,63 @@
+/* styles.css */
+.p1 {
+  margin: 0 0 0 40px;
+  text-align: center;
+  line-height: 23px;
+  font-size: 23px;
+  font-family: Arial;
+  background-color: #ffffff;
+}
+
+.p2 {
+  margin: 0;
+  font-size: 13px;
+  font-family: Arial;
+  color: #313131;
+  min-height: 15px;
+}
+
+.p3 {
+  margin: 0 0 0 40px;
+  text-align: right;
+  line-height: 16px;
+  font-size: 16px;
+  font-family: "Times New Roman";
+  background-color: #ffffff;
+}
+
+.p4 {
+  margin: 0 0 0 40px;
+  text-align: right;
+  line-height: 16px;
+  font-size: 16px;
+  font-family: Arial;
+  background-color: #ffffff;
+}
+
+.p5 {
+  margin: 0 0 0 40px;
+  text-align: center;
+  line-height: 19px;
+  font-size: 19px;
+  font-family: Arial;
+  background-color: #ffffff;
+}
+
+.s1 {
+  text-decoration: underline;
+}
+
+.s2 {
+  /* No additional styles needed */
+}
+
+.s3 {
+  font-size: 13px;
+  font-family: Arial;
+  color: #313131;
+}
+
+.s4 {
+  font-size: 16px;
+  font-family: Arial;
+}
