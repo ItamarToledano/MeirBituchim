@@ -1,12 +1,12 @@
-const AboutPage: React.FC = () => {
+const RetirementPlanningPage: React.FC = () => {
   return (
     <div>
-      <h1>About page</h1>
+      <h1>Retirement Planning Page</h1>
       <p>Your trusted partner for all insurance needs.</p>
     </div>
   );
 };
 
-export default AboutPage;
+export default RetirementPlanningPage;
 
 // Similar structure for AboutUsPage.tsx, ServicesPage.tsx, ContactUsPage.tsx
