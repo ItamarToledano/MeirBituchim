@@ -1,25 +1,26 @@
 import HomePage from "./components/HomePage";
-import AboutPage from "./components/AboutPage";
-// import Layout from "./components/Layout";
-import { Routes, Route } from "react-router-dom";
-import "./App.css";
+import RegisterUnionPage from "./components/RegisterUnionPage";
+import RetirementPlanningPage from "./components/RetirementPlanningPage";
+import ContactUs from "./components/ContactUs";
+import HealthInsurancePage from "./components/HealthInsurancePage";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import ContactUs from "./components/ContactUs";
+
+import { Routes, Route } from "react-router-dom";
+import "./App.css";
 
 const App: React.FC = () => {
   return (
     <>
       <Header />
       <Routes>
-        {/* <Route index element={<HomePage />} /> */}
         <Route path="/" element={<HomePage />} />
-        <Route path="about" element={<AboutPage />} />
+        <Route path="healthInsurance" element={<HealthInsurancePage />} />
         <Route path="contactUs" element={<ContactUs />} />
-
-        {/* <Route path="*" element={<NoPage />} /> */}
+        <Route path="retirementPlanning" element={<RetirementPlanningPage />} />
+        <Route path="registerUnion" element={<RegisterUnionPage />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
