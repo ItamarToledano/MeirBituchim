@@ -80,6 +80,8 @@ const ContactUs: React.FC = () => {
       <h2>צור קשר! אנחנו כאן עבורך</h2>
       <div className="contact-info">
         <p>כתובת: לוחמי השחרור 4 פתח תקווה</p>
+        <p>מספר טלפון נייח: 03-9340908</p>
+        <p>מספר טלפון נייד: 050-866-5317</p>
         <p>
           <a onClick={handleEmailClick} href="mailto:meirbit2008@gmail.com">
             meirbit2008@gmail.com
